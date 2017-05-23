@@ -9,7 +9,6 @@ namespace StudentApi
 {
     public class HomeController : ApiController
     {
-
         // GET api/<controller>/5
         public string Get(int id)
         {
@@ -19,6 +18,7 @@ namespace StudentApi
         // POST api/<controller>
         public void Post([FromBody]string value)
         {
+            string ab = "20";
         }
 
         // PUT api/<controller>/5
