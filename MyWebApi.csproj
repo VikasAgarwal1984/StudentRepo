@@ -104,6 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Index.html" />
     <Content Include="Web.config" />
     <Content Include="packages.config" />
   </ItemGroup>
