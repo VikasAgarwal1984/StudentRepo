@@ -105,6 +105,13 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Index.html" />
+    <Content Include="MyApp\favicon.ico" />
+    <Content Include="MyApp\index.html" />
+    <Content Include="MyApp\inline.bundle.js" />
+    <Content Include="MyApp\main.bundle.js" />
+    <Content Include="MyApp\polyfills.bundle.js" />
+    <Content Include="MyApp\styles.bundle.js" />
+    <Content Include="MyApp\vendor.bundle.js" />
     <Content Include="Web.config" />
     <Content Include="packages.config" />
   </ItemGroup>
@@ -119,6 +126,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MyApp\inline.bundle.js.map" />
+    <Content Include="MyApp\main.bundle.js.map" />
+    <Content Include="MyApp\polyfills.bundle.js.map" />
+    <Content Include="MyApp\styles.bundle.js.map" />
+    <Content Include="MyApp\vendor.bundle.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
